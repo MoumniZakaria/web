@@ -1,4 +1,4 @@
-import "/goinfre/zmoumni/vvvvvvvvvvv/abechcha/src/index.scss";
+import "../index.scss";
 
 const Welcome = () => {
   return (

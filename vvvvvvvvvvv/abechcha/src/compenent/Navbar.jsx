@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import "../index.scss";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -16,7 +16,7 @@ const Navbar = () => {
           </button>
         </div>
         
-        <div className="hidden md:flex space-x-4 items-center justify-center flex-grow">
+        <div className="hidden md:flex   space-x-4 items-center justify-center flex-grow ">
           <a href="#" className="hover:text-yellow-400">Home</a>
           <a href="#" className="hover:text-yellow-400">Categories</a>
           <a href="#" className="hover:text-yellow-400">Contact us</a>
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
       
       {isMenuOpen && (
-        <div className="md:hidden absolute top-20 left-0 right-0  p-4">
+        <div className="md:hidden bg-blue-950 backdrop-blur-sm absolute top-20 left-0 right-0  p-4">
           <a href="#" className="block py-2 hover:text-yellow-400">Home</a>
           <a href="#" className="block py-2 hover:text-yellow-400">Categories</a>
           <a href="#" className="block py-2 hover:text-yellow-400">Contact us</a>

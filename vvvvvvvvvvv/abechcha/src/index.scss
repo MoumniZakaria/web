@@ -8,6 +8,10 @@
   margin: 0;
   padding: 0;
 }
+.main-nav {
+  background: black;
+  
+}
 .welcome{
   background: linear-gradient(130deg, #a152f4, #f1f1f1);
   -webkit-background-clip: text;
@@ -18,7 +22,7 @@
 
 
 .home {
-  background: url("/public/Frame.png");
+  background: url("/Frame.png");
   background-repeat: no-repeat;
   background-size: cover;
 
